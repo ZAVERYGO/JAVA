@@ -1,7 +1,10 @@
 package com.ifelse;
 
 import java.util.Scanner;
-
+/*9. Имеются три числа - день, месяц и год, вводимые пользователем с консоли.
+        Вывести дату следующего дня в формате "День.Месяц.Год".
+        Учесть переход на следующий месяц, а также следующий год.
+        Форматирование строки "День.Месяц.Год" вынести в отдельную функцию.*/
 public class Solution9 {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);

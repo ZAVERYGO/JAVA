@@ -2,7 +2,8 @@ package com.arrays;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-
+//2. Написать программу, удаляющую все повторяющиеся целые числа из
+//        массива и печатающую результат.
 public class Arrays2 {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);

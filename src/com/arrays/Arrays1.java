@@ -2,7 +2,9 @@ package com.arrays;
 
 import java.util.Arrays;
 import java.util.Scanner;
-
+/*1. Напишите программу, которая циклически сдвигает элементы
+       массива вправо на одну позицию, и печатает результат.
+       Цикличность означает, что последний элемент массива становится самым первым его элементом.*/
 public class Arrays1 {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);

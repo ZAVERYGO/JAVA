@@ -1,7 +1,8 @@
 package com.ifelse;
 
 import java.util.Scanner;
-
+/*1. Имеется целое число, вводимое пользователем с консоли. Это число - сумма денег в рублях.
+        Вывести это число, добавив к нему слово "рубль" в правильном падеже ("рубль", "рублей", "рубля")  (if-else && switch)*/
 public class Solution1 {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);

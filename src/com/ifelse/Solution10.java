@@ -1,7 +1,9 @@
 package com.ifelse;
 
 import java.util.Scanner;
-
+/*10. Имеются два дома размерами a на b и c на d. Размеры вводятся польователем с консоли.
+        Проверить, помещаются ли эти дома на участке размерами e на f.
+        Стороны домов - параллельны сторонам участка, в остальном размещение может быть любым.*/
 public class Solution10 {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
