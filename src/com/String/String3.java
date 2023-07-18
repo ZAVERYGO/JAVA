@@ -18,10 +18,7 @@ public class String3 {
 
     public static boolean startEnd(String str, String word) {
         if (str.startsWith(word) && str.endsWith(word)) {
-            if ((str.charAt(str.indexOf(word) + word.length()) == ' ') && (str.charAt(str.lastIndexOf(word) - 1) == ' '))
-                return true;
-            else
-                return false;
+            return (str.charAt(word.length()) == ' ') && (str.charAt(str.length() - word.length() - 1) == ' ');
         } else
             return false;
     }
