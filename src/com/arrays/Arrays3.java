@@ -18,14 +18,14 @@ public class Arrays3 {
         int size1 = console.nextInt();
         ArrayList<Integer> list1 = new ArrayList<>();
         for (int i = 0; i < size1; i++) {
-            list1.add(i, console.nextInt());
+            list1.add(console.nextInt());
         }
         System.out.print("Введите длину второго массива:");
         int size2 = console.nextInt();
         ArrayList<Integer> list2 = new ArrayList<>();
         ArrayList<Integer> list3 = new ArrayList<>();
         for (int i = 0; i < size2; i++) {
-            list2.add(i, console.nextInt());
+            list2.add(console.nextInt());
         }
         for (int i = 0; i < Math.min(list1.size(), list2.size()); i++) {
             list3.add(list1.get(i));
