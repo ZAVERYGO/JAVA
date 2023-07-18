@@ -14,13 +14,13 @@ import java.util.Scanner;
 public class Arrays3 {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
-        System.out.print("Введите длину массива первого массива:");
+        System.out.print("Введите длину первого массива:");
         int size1 = console.nextInt();
         ArrayList<Integer> list1 = new ArrayList<>();
         for (int i = 0; i < size1; i++) {
             list1.add(i, console.nextInt());
         }
-        System.out.print("Введите длину массива второго массива:");
+        System.out.print("Введите длину второго массива:");
         int size2 = console.nextInt();
         ArrayList<Integer> list2 = new ArrayList<>();
         ArrayList<Integer> list3 = new ArrayList<>();
