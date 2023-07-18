@@ -2,7 +2,8 @@ package com.arrays;
 
 import java.util.Arrays;
 import java.util.Scanner;
-
+/*4. Написать функцию linearize, которая принимает в качестве параметра двумерный массив
+        и возвращает одномерный массив со всеми элементами двумерного.*/
 public class Arrays4 {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
