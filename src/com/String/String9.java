@@ -1,7 +1,8 @@
 package com.String;
 
 import java.util.Scanner;
-
+/*9. Написать функцию, заменяющую несколько последовательных одинаковых символов в строке одним.
+        Пример: aaabbcdeef -> abcdef*/
 public class String9 {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
