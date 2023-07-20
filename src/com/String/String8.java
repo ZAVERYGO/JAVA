@@ -1,7 +1,8 @@
 package com.String;
 
 import java.util.Scanner;
-
+//8. Подсчитать количество слов в тексте.
+//        Учесть, что слова могут разделяться несколькими пробелами.
 public class String8 {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
