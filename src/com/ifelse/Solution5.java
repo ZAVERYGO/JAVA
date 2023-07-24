@@ -12,6 +12,6 @@ public class Solution5 {
     }
 
     public static int maxValue(int firstValue, int secondValue) {
-        return Math.max(firstValue, secondValue);
+        return firstValue > secondValue ? firstValue:secondValue;
     }
 }
