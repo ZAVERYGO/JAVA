@@ -1,7 +1,8 @@
 package com.arrays;
 
-import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
+
 /*3. Заданы 2 массива целых чисел произвольной длины.
         Написать программу, создающую третий массив, представляющий собой слияние 2-х заданных.
 
@@ -15,33 +16,35 @@ public class Arrays3 {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
         System.out.print("Введите длину первого массива:");
-        int size1 = console.nextInt();
-        ArrayList<Integer> list1 = new ArrayList<>();
-        for (int i = 0; i < size1; i++) {
-            list1.add(console.nextInt());
+        int[] array1 = new int[console.nextInt()];
+        for (int i = 0; i < array1.length; i++) {
+            System.out.print("array1[" + i + "] = ");
+            array1[i] = console.nextInt();
         }
         System.out.print("Введите длину второго массива:");
-        int size2 = console.nextInt();
-        ArrayList<Integer> list2 = new ArrayList<>();
-        ArrayList<Integer> list3 = new ArrayList<>();
-        for (int i = 0; i < size2; i++) {
-            list2.add(console.nextInt());
+        int[] array2 = new int[console.nextInt()];
+        for (int i = 0; i < array2.length; i++) {
+            System.out.print("array[" + i + "] = ");
+            array2[i] = console.nextInt();
         }
-        for (int i = 0; i < Math.min(list1.size(), list2.size()); i++) {
-            list3.add(list1.get(i));
-            list3.add(list2.get(i));
+        int[] array3 = new int[array1.length + array2.length];
+        int count = 0;
+        for (int i = 0; i < Math.min(array1.length, array2.length); i++) {
+            array3[count++] = array1[i];
+            array3[count++] = array2[i];
         }
-        if (list1.size() > list2.size())
-            for (int i = list2.size(); i < list1.size(); i++)
-                list3.add(list1.get(i));
-        else if (list1.size() < list2.size())
-            for (int i = list1.size(); i < list2.size(); i++)
-                list3.add(list2.get(i));
-
-                for (int n :
-                        list3) {
-                    System.out.print(n + " ");
-                }
+        if (array1.length > array2.length) {
+            for (int i = array2.length; i < array1.length; i++) {
+                array3[i + array2.length] = array1[i];
+            }
+        } else if (array1.length < array2.length) {
+            for (int i = array1.length; i < array2.length; i++) {
+                array3[i + array1.length] = array2[i];
+            }
+        }
+        System.out.println(Arrays.toString(array3));
     }
 }
+
+
 
