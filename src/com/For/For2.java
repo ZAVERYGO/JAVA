@@ -1,6 +1,8 @@
 package com.For;
 
 import java.util.Scanner;
+/*2. Написать программу высчитывающую факториал введённого целого числа.
+        Нужно 2 варианта: с циклом и с рекурсией.*/
 
 public class For2 {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
 package com.For;
 
 import java.util.Scanner;
-
+/*5. Имеется последовательность случайных чисел. Найти и вывести наибольшее из них.*/
 public class For5 {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);

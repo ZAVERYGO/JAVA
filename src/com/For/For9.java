@@ -1,7 +1,8 @@
 package com.For;
 
 import java.util.Scanner;
-
+/*9. Написать программу, вычисляющую и отображающую все числа Фибоначчи меньше введённого пользователем целого числа.
+        Решить двумя способами: с помощью цикла и с помощью рекурсии.*/
 public class For9 {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);

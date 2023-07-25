@@ -1,7 +1,9 @@
 package com.For;
 
 import java.util.Scanner;
-
+/*7*. Имеется целое число. Вывести его в бухгалтерском формате.
+        Т.е., начиная справа, каждые три позиции отделяются пробелом.
+        Например 20023143 должно быть выведено как 20 023 143*/
 public class For7 {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);

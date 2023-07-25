@@ -1,6 +1,7 @@
 package com.For;
 
 import java.util.Scanner;
+//6. Имеется число. Посчитать сумму цифр данного числа.
 
 public class For6 {
     public static void main(String[] args) {

@@ -1,7 +1,8 @@
 package com.For;
 
 import java.util.Scanner;
-
+/*3. Написать программу, определяющую,
+        является ли введённое целое число простым,  т.е. делится без остатка только на 1 и само на себя.*/
 public class For3 {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
