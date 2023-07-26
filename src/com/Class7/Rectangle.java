@@ -1,0 +1,39 @@
+package com.Class7;
+
+public class Rectangle extends GeometricFigure {
+    private int height;
+    private int width;
+
+    public Rectangle(int height, int width) {
+        this.height = height;
+        this.width = width;
+    }
+
+    @Override
+    double getArea() {
+        return height * width;
+    }
+
+    @Override
+    double getPerimeter() {
+        return (height + width) * 2;
+    }
+    public double getDiagonal(){
+        return Math.sqrt(Math.pow(width, 2) + Math.pow(height, 2));
+    }
+    public int getHeight() {
+        return height;
+    }
+
+    public int getWidth() {
+        return width;
+    }
+
+    public void setHeight(int height) {
+        this.height = height;
+    }
+
+    public void setWidth(int width) {
+        this.width = width;
+    }
+}
