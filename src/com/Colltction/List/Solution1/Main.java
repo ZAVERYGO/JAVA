@@ -18,6 +18,7 @@ public class Main {
                 list.add(list.indexOf(str), "****");
             }
         }
+        // rf
         System.out.println(list);
     }
 }
