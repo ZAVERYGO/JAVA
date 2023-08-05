@@ -1,4 +1,4 @@
-package com.Class7;
+package com.Class.Class7;
 
 public class Circle extends GeometricFigure{
     private int radius;

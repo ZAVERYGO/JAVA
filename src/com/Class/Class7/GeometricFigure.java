@@ -1,4 +1,4 @@
-package com.Class7;
+package com.Class.Class7;
 
 public abstract class GeometricFigure implements Equals {
     abstract double getArea();

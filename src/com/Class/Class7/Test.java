@@ -1,14 +1,11 @@
-package com.Class7;
+package com.Class.Class7;
 
-import java.awt.*;
 
 public class Test{
     public static void main(String[] args) {
         Triangle geometricFigure1 = new Triangle(3, 4, 5);
         Rectangle geometricFigure2 = new Rectangle(2, 3);
         Circle geometricFigure3 = new Circle(3);
-        System.out.println(geometricFigure1.isRectangle());
-        System.out.println(geometricFigure1.isTriangle());
         System.out.println(ShapeUtils.isRectangle(geometricFigure1));
         System.out.println(ShapeUtils.isTriangle(geometricFigure1));
         System.out.println(geometricFigure1.getArea());

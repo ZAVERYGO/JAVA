@@ -1,4 +1,4 @@
-package com.Class6;
+package com.Class.Class6;
 
 public class Rectangle {
     private Point first;

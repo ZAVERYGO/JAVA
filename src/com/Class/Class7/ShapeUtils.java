@@ -1,6 +1,4 @@
-package com.Class7;
-
-import javax.naming.spi.Resolver;
+package com.Class.Class7;
 
 public class ShapeUtils {
 public static boolean isRectangle(Rectangle rectangle){

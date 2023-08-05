@@ -1,4 +1,4 @@
-package com.Class7;
+package com.Class.Class7;
 
 public interface Equals {
     boolean equalsArea(GeometricFigure geometricFigure);
