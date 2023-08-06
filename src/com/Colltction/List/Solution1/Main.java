@@ -1,5 +1,6 @@
 package com.Colltction.List.Solution1;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -12,13 +13,17 @@ import java.util.List;
         {"****", "this", "is", "****", "lots", "of", "fun", "for", "every", "****", "Java", "programmer"}*/
 public class Main {
     public static void main(String[] args) {
-        List<String> list = Arrays.asList("this", "is", "lots", "of", "fun", "for", "every", "Java", "programmer");
-        for (String str : list) {
-            if (str.trim().length() == 4) {
-                list.add(list.indexOf(str), "****");
+        System.out.println(markLength4());
+    }
+    public static List markLength4(){
+        List<String> list = new ArrayList<>(Arrays.asList("this", "is", "lots", "of", "fun", "for", "every", "Java", "programmer"));
+        for (int i = 0; i < list.size(); i++) {
+            if (list.get(i).trim().length() == 4) {
+                list.add(i, "****");
+                i++;
             }
         }
-        // rf
-        System.out.println(list);
+        return list;
     }
 }
+
