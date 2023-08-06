@@ -13,10 +13,10 @@ import java.util.List;
         {"****", "this", "is", "****", "lots", "of", "fun", "for", "every", "****", "Java", "programmer"}*/
 public class Main {
     public static void main(String[] args) {
-        System.out.println(markLength4());
-    }
-    public static List markLength4(){
         List<String> list = new ArrayList<>(Arrays.asList("this", "is", "lots", "of", "fun", "for", "every", "Java", "programmer"));
+        System.out.println(markLength4(list));
+    }
+    public static List<String> markLength4(List<String> list){
         for (int i = 0; i < list.size(); i++) {
             if (list.get(i).trim().length() == 4) {
                 list.add(i, "****");
