@@ -4,17 +4,17 @@ public class Student {
     private String name;
     private String surname;
     private int age;
-    private double averageScore;
+    private double averageMark;
 
     public Student(String name, String surname, int age, Double averageScore) {
         this.name = name;
         this.surname = surname;
         this.age = age;
-        this.averageScore = averageScore;
+        this.averageMark = averageScore;
     }
 
     public double getAverageMark() {
-        return averageScore;
+        return averageMark;
     }
 
     public String getName() {
@@ -35,7 +35,7 @@ public class Student {
                 "name='" + name + '\'' +
                 ", surname='" + surname + '\'' +
                 ", age=" + age +
-                ", averageScore=" + averageScore +
+                ", averageMark=" + averageMark +
                 "}\n";
     }
 }

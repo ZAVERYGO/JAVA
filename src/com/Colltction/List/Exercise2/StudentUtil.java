@@ -9,7 +9,7 @@ public final class StudentUtil {
     public static Student getBestStudent(List<Student> students){
         Student bestStudent = null;
         for (Student student : students) {
-            if(bestStudent.getAverageMark() < student.getAverageMark()){
+            if(bestStudent == null || bestStudent.getAverageMark() < student.getAverageMark()){
                 bestStudent = student;
             }
         }

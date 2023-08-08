@@ -43,5 +43,7 @@ public class Main {
 
         students.sort(new AgeComparator().thenComparing(new NameComparator()));
         System.out.println(students);
+
+        System.out.println(StudentUtil.getBestStudent(students));
     }
 }
