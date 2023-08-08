@@ -1,4 +1,4 @@
-package com.Colltction.List.Solution1;
+package com.Colltction.List.Exercise1;
 
 import java.util.ArrayList;
 import java.util.Arrays;
