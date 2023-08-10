@@ -1,4 +1,4 @@
-package com.Colltction.List.Exercise2;
+package com.Collection.List.Exercise2;
 
 public class Student {
     private String name;

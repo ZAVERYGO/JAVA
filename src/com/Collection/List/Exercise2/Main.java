@@ -1,14 +1,14 @@
-package com.Colltction.List.Exercise2;
+package com.Collection.List.Exercise2;
 /*
 2. Создать класс Student, представляющий собой ученика. Добавить ему данные об имени, фамилии, возрасте и среднем балле за год.
         Создать список (List) учеников. Найти и вывести ученика с самым высоким средним баллом используя итератор.
         Отсортировать и вывести список учеников по полному имени (имя + фамилия), возрасту и среднему баллу, используя компараторы.
 */
 
-import com.Colltction.List.Exercise2.Comparator.AgeComparator;
-import com.Colltction.List.Exercise2.Comparator.AverageMarkComparator;
-import com.Colltction.List.Exercise2.Comparator.NameComparator;
-import com.Colltction.List.Exercise2.Comparator.SurNameComparator;
+import com.Collection.List.Exercise2.Comparator.AgeComparator;
+import com.Collection.List.Exercise2.Comparator.AverageMarkComparator;
+import com.Collection.List.Exercise2.Comparator.NameComparator;
+import com.Collection.List.Exercise2.Comparator.SurNameComparator;
 
 import java.util.ArrayList;
 import java.util.List;

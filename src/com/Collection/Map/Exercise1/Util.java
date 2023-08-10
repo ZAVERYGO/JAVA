@@ -1,4 +1,4 @@
-package com.Colltction.Map.Exercise1;
+package com.Collection.Map.Exercise1;
 
 import java.util.HashMap;
 import java.util.Map;

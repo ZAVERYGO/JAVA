@@ -1,4 +1,4 @@
-package com.Colltction.Map.Exercise2;
+package com.Collection.Map.Exercise2;
 /*
 2. Создать абстрактный класс Car, представляющий собой автомобиль.
         Добавить в него поля: марка, модель, год выпуска + несколько своих.

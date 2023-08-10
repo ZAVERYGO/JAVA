@@ -1,4 +1,4 @@
-package com.Colltction.Map.Exercise1;
+package com.Collection.Map.Exercise1;
 
 /*1. Задан текст на английском языке. Выделить все различные слова.
         Для каждого слова подсчитать частоту его встречаемости.

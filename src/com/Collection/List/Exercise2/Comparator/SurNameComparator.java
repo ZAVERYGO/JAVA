@@ -1,6 +1,6 @@
-package com.Colltction.List.Exercise2.Comparator;
+package com.Collection.List.Exercise2.Comparator;
 
-import com.Colltction.List.Exercise2.Student;
+import com.Collection.List.Exercise2.Student;
 
 import java.util.Comparator;
 
