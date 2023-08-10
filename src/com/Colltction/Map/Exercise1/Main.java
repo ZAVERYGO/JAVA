@@ -1,8 +1,8 @@
 package com.Colltction.Map.Exercise1;
 
-import java.util.HashMap;
-import java.util.Map;
-
+/*1. Задан текст на английском языке. Выделить все различные слова.
+        Для каждого слова подсчитать частоту его встречаемости.
+        Слова, отличающиеся регистром букв, считать различными.*/
 public class Main {
     public static void main(String[] args) {
         String text = "Currently, there are many opportunities offered to those "
