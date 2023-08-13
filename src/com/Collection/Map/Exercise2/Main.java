@@ -16,19 +16,19 @@ import com.Collection.Map.Exercise2.Enum.Model;
 */
 public class Main {
     public static void main(String[] args) {
-        Car car1 = new SportCar(Brand.BMV, Model.CABRIOLET, Color.BLACK, 2015, 1200, 290);
+        Car car1 = new SportCar(Brand.BMW, Model.CABRIOLET, Color.BLACK, 2015, 1200, 290);
         Car car2 = new SportCar(Brand.FIAT, Model.COUPE, Color.WHITE, 2014,  1600,  300);
         System.out.println(car1.equals(car2));
         Garage garage = new Garage();
-        garage.park(new Truck(2020, Brand.SKODA, Model.STATION_WAGON, Color.RED, 10));
-        garage.park(new Truck(2020, Brand.MERCEDES, Model.STATION_WAGON, Color.WHITE, 15));
-        garage.park(new SportCar(2018, Brand.BMV, Model.SEDAN, Color.BLACK, 220));
-        garage.park(new RacingCar(2018, Brand.BMV, Model.SEDAN, Color.BLACK, 220));
+        garage.park(new Truck(Brand.SKODA, Model.COUPE, Color.WHITE, 2020, 3800, 130));
+        garage.park(new Truck(Brand.MERCEDES, Model.SEDAN, Color.RED, 2013, 4000, 120));
+        garage.park(new SportCar(Brand.BMW, Model.CABRIOLET, Color.GREEN, 2020, 1000, 320));
+        garage.park(new SportCar(Brand.FIAT, Model.SEDAN, Color.YELLOW, 2020, 1200, 310));
         System.out.println(garage.toString());
-        System.out.println(garage.getCarCountByBrand(Brand.BMV));
+        System.out.println(garage.getAmountCar(Brand.BMW));
 
-        garage.departure(new RacingCar(2018, Brand.BMV, Model.SEDAN, Color.BLACK, 220));
+        garage.departure(new SportCar(Brand.BMW, Model.CABRIOLET, Color.GREEN, 2020, 1000, 320));
         System.out.println(garage.toString());
-        System.out.println(garage.getCarCountByModel(Model.SEDAN));
+        System.out.println(garage.getAmountCar(Brand.BMW));
     }
 }
