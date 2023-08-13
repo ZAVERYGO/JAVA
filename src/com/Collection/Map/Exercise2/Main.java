@@ -16,10 +16,9 @@ import com.Collection.Map.Exercise2.Enum.Model;
 */
 public class Main {
     public static void main(String[] args) {
-        Car car1 = new SportCar(Brand.BMW, Model.CABRIOLET, Color.BLACK, 2015, 1200, 290);
-        Car car2 = new SportCar(Brand.FIAT, Model.COUPE, Color.WHITE, 2014,  1600,  300);
-        System.out.println(car1.equals(car2));
         Garage garage = new Garage();
+        garage.park(new SportCar(Brand.BMW, Model.CABRIOLET, Color.BLACK, 2015, 1200, 290));
+        garage.park(new SportCar(Brand.FIAT, Model.COUPE, Color.WHITE, 2014,  1600,  300));
         garage.park(new Truck(Brand.SKODA, Model.COUPE, Color.WHITE, 2020, 3800, 130));
         garage.park(new Truck(Brand.MERCEDES, Model.SEDAN, Color.RED, 2013, 4000, 120));
         garage.park(new SportCar(Brand.BMW, Model.CABRIOLET, Color.GREEN, 2020, 1000, 320));

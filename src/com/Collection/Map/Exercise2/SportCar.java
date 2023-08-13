@@ -32,6 +32,6 @@ private int maxSpeed;
     public String toString() {
         return "SportCar{" +
                 "maxSpeed=" + maxSpeed +
-                '}';
+                '}' + super.toString();
     }
 }

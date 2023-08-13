@@ -32,6 +32,6 @@ public class Bus extends Car{
     public String toString() {
         return "Bus{" +
                 "amountPassengers=" + amountPassengers +
-                '}';
+                '}' + super.toString();
     }
 }

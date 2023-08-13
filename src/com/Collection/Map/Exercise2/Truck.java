@@ -31,6 +31,6 @@ public class Truck extends Car{
     public String toString() {
         return "Truck{" +
                 "loadCapacity=" + loadCapacity +
-                '}';
+                '}' + super.toString();
     }
 }
