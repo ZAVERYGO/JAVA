@@ -1,5 +1,7 @@
 package com.Exception.Exercise7;
 
+import java.io.File;
+
 /*7. Написать метод, который в 50% случаев бросает исключение.
         Вызвать этот метод в конструкции try-catch-finally. Протестировать работу блока finally.*/
 public class Main {
