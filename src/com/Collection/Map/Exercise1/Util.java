@@ -12,7 +12,7 @@ public class Util {
         String[] words = text.replace(".", EMPTY).replace(",", EMPTY).replace("!", EMPTY).split(SPACE);
         for (String word : words) {
             Integer Count1 = resultMap.get(word);
-            Integer Count2 = Count1 == null ? 1 : Count1 + 1;
+            Integer Count2 = (Count1 == null ? 1 : Count1 + 1);
             resultMap.put(word, Count2);
         }
         return resultMap;

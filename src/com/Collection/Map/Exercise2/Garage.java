@@ -20,7 +20,7 @@ public class Garage {
     public int getAmountCar(Brand brand){
         int count = 0;
         for (Map.Entry<Car, Integer> entry: cars.entrySet()) {
-            if(entry.getKey().getBrand() == brand)
+            if(entry.getKey().getBrand().equals(brand))
                 count++;
         }
         System.out.print("Количество машин: " + brand + "= ");
