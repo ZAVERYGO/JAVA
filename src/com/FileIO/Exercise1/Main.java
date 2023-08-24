@@ -14,7 +14,6 @@ public class Main {
             System.out.println(new String(fileInputStream.readAllBytes()));
         }
         Stream<String> stream = Files.lines(path);
-           stream.forEach(System.out::println);
-        stream.close();
+        stream.forEach(System.out::println);
     }
 }
