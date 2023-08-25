@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.List;
 
 //2. Задан файл с текстом, найти и вывести в консоль все слова, начинающиеся с гласной буквы.
-public class Main {
+public class Main2 {
     public static void main(String[] args) throws IOException {
         Path path = Path.of("src", "com", "FileIO", "Exercise1", "text.txt");
         List<String> result = new ArrayList<>();
@@ -20,10 +20,7 @@ public class Main {
             String[] string = str.split(" ");
             for (int i = 0; i < string.length; i++) {
                 if (isUpperCase(string[i].charAt(0))) {
-                    if(string[i].endsWith("?") || string[i].endsWith(",") ||
-                            string[i].endsWith(".") || string[i].endsWith("!") ||
-                            string[i].endsWith(":") || string[i].endsWith("-") ||
-                            string[i].endsWith(";")) {
+                    if (punctuationMarks(string[i])) {
                         char[] ch = string[i].toCharArray();
                         string[i] = new String(Arrays.copyOf(ch, ch.length - 1));
                     }
@@ -32,8 +29,10 @@ public class Main {
             }
         }
         for (int i = 0; i < result.size(); i++) {
-            if(result.get(i).isEmpty())
+            if (result.get(i).isEmpty()) {
                 result.remove(i);
+                i--;
+            }
         }
         System.out.println(result);
     }
@@ -42,5 +41,12 @@ public class Main {
     public static boolean isUpperCase(char ch) {
         String str = Character.toString(ch);
         return str.equals(str.toUpperCase());
+    }
+
+    public static boolean punctuationMarks(String string) {
+        return string.endsWith("?") || string.endsWith(",") ||
+                string.endsWith(".") || string.endsWith("!") ||
+                string.endsWith(":") || string.endsWith("-") ||
+                string.endsWith(";");
     }
 }
