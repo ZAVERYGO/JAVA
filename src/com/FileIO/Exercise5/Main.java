@@ -12,7 +12,6 @@ public class Main {
     public static void main(String[] args) throws IOException {
         Path path1 = Path.of("src", "com", "FileIO", "Exercise5", "codePublic");
         Path path2 = Path.of("src", "com", "FileIO", "Exercise5", "codePrivate");
-        List<Integer> result = new ArrayList<>();
         String string = Files.readString(path1);
         Files.writeString(path2, string.replace("public", "private"));
     }
