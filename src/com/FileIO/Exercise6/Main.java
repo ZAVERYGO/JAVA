@@ -11,8 +11,12 @@ public class Main {
     public static void main(String[] args) throws IOException {
         Path path1 = Path.of("src", "com", "FileIO", "Exercise6", "code1");
         Path path2 = Path.of("src", "com", "FileIO", "Exercise6", "code2");
-        String string = Files.readString(path1);
-        StringBuffer string2 = new StringBuffer(string);
-        Files.writeString(path2, string2.reverse());
+        List<String> string = Files.readAllLines(path1);
+        List<StringBuilder> stringBuilders = new ArrayList<>();
+        for (String s : string) {
+            StringBuilder str = new StringBuilder(s);
+            stringBuilders.add(str.reverse());
+        }
+        Files.write(path2, stringBuilders);
     }
 }

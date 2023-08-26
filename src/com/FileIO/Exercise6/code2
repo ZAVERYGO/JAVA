@@ -1,37 +1,37 @@
+{ erugiFcirtemoeG sdnetxe elgnatceR ssalc cilbup
+;thgieh tni cilbup    
+;htdiw tni cilbup    
+
+{ )htdiw tni ,thgieh tni(elgnatceR cilbup    
+;thgieh = thgieh.siht        
+;htdiw = htdiw.siht        
+}    
+
+edirrevO@    
+{ )(aerAteg elbuod    
+;htdiw * thgieh nruter        
+}    
+
+edirrevO@    
+{ )(retemirePteg elbuod    
+;2 * )htdiw + thgieh( nruter        
+}    
+{)(lanogaiDteg elbuod cilbup    
+;))2 ,thgieh(wop.htaM + )2 ,htdiw(wop.htaM(trqs.htaM nruter        
+}    
+{ )(thgieHteg tni cilbup    
+;thgieh nruter        
+}    
+
+{ )(htdiWteg tni cilbup    
+;htdiw nruter        
+}    
+
+{ )thgieh tni(thgieHtes diov cilbup    
+;thgieh = thgieh.siht        
+}    
+
+{ )htdiw tni(htdiWtes diov cilbup    
+;htdiw = htdiw.siht        
+}    
 }
-}    
-;htdiw = htdiw.siht        
-{ )htdiw tni(htdiWtes diov cilbup    
-
-}    
-;thgieh = thgieh.siht        
-{ )thgieh tni(thgieHtes diov cilbup    
-
-}    
-;htdiw nruter        
-{ )(htdiWteg tni cilbup    
-
-}    
-;thgieh nruter        
-{ )(thgieHteg tni cilbup    
-}    
-;))2 ,thgieh(wop.htaM + )2 ,htdiw(wop.htaM(trqs.htaM nruter        
-{)(lanogaiDteg elbuod cilbup    
-}    
-;2 * )htdiw + thgieh( nruter        
-{ )(retemirePteg elbuod    
-edirrevO@    
-
-}    
-;htdiw * thgieh nruter        
-{ )(aerAteg elbuod    
-edirrevO@    
-
-}    
-;htdiw = htdiw.siht        
-;thgieh = thgieh.siht        
-{ )htdiw tni ,thgieh tni(elgnatceR cilbup    
-
-;htdiw tni cilbup    
-;thgieh tni cilbup    
-{ erugiFcirtemoeG sdnetxe elgnatceR ssalc cilbup
